@@ -30,9 +30,12 @@ _Note: the concept of an iterator will be discussed in detail in a few weeks._
 	- Refresh your knowledge on UML (_e.g._ [here](http://plantuml.com/class-diagram))
 	- What's the difference between a regular inner and static inner class?
 	- Can you think of some use cases for both?
-**Antwort 'What is a static class?': Eine statische Klasse kann aufgerufen werden ohne instanziiert werden zu müssen.**
-**Antwort 'What's the difference between a regular inner an static inner class?: Eine Instanz der Oberklasse muss vorhanden sein um die inner class aufzurufen. Mit static kann diese außerhalb auch ohne Instanziierung aufgerufen werden**
-**Antwort 'Can you think of some use cases for both?': Bei Datenstrukturen e.g. Suchbaum**
+	- 
+Antwort 'What is a static class?': Eine statische Klasse kann aufgerufen werden ohne instanziiert werden zu müssen.
+
+Antwort 'What's the difference between a regular inner an static inner class?: Eine Instanz der Oberklasse muss vorhanden sein um die inner class aufzurufen. Mit static kann diese außerhalb auch ohne Instanziierung aufgerufen werden
+
+Antwort 'Can you think of some use cases for both?': Bei Datenstrukturen e.g. Suchbaum
 
 2. Implement `Element` as static inner class of `SimpleListImpl`.
 	- Why is this class static, and ideally `private`?
